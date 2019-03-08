@@ -2,30 +2,59 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>items</key>
-    <array>
-        <dict>
-            <key>assets</key>
-            <array>
-                <dict>
+	<key>ES100.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+				 <dict>
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://github.com/alexli-al/ifreecloud-install/blob/master/hw/latest/es100.ipa?raw=true</string>
+                    <string>https://github.com/alexli-al/ifreecloud-install/blob/master/sj/latest/es100.ipa?raw=true</string>
                 </dict>
-            </array>
-            <key>metadata</key>
-            <dict>
-                <key>bundle-identifier</key>
-                <string>ifree</string>
-                <key>bundle-version</key>
-                <string>3.2.9</string>
-                <key>kind</key>
-                <string>software</string>
-                <key>title</key>
-                <string>HW客户端</string>
-            </dict>
-        </dict>
-    </array>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>9B8CB3B0E7CC0AB755DA14EB7BDD65320D93DF18</string>
+				<key>dateExpires</key>
+				<string>2019/6/3</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>87L224X9PW.com.iFreecomm.ES100</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>87L224X9PW</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>87L224X9PW.com.iFreecomm.ES100</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>ES100.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>674d5574-8501-4fdf-a33f-5c97fb68ccae</string>
+				<key>name</key>
+				<string>ES100_TEST</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>87L224X9PW</string>
+				<key>name</key>
+				<string>iFreecomm Technology Co.,Ltd.</string>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>
